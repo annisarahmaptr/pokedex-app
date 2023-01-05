@@ -3,18 +3,16 @@ import {
   Card,
   HStack,
   CardHeader,
-  CardBody,
   Heading,
   Box,
   Badge,
   Button,
   Flex,
-  SimpleGrid,
   Text
 } from "@chakra-ui/react";
 import { Image } from "@chakra-ui/react";
 import { Link } from "react-router-dom";
-import { useSearchParams, useNavigate, useParams} from "react-router-dom";
+import { useSearchParams, useNavigate} from "react-router-dom";
 
 const Pagination = () => {
   const [searchParams, setSearchParams] = useSearchParams();

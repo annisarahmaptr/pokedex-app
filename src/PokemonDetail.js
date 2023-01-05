@@ -4,7 +4,7 @@ import { Badge, Tr, Td, HStack, VStack, Heading, Box, Flex } from "@chakra-ui/re
 import { Image } from "@chakra-ui/react";
 import { useParams } from "react-router-dom";
 import { Table } from "@chakra-ui/react";
-import { Tbody } from "@chakra-ui/react";
+
 
 const Detail = ({ pokemon }) => {
   return (

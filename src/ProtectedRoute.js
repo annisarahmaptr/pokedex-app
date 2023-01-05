@@ -2,7 +2,7 @@ import { useSearchParams } from "react-router-dom";
 import { Navigate } from "react-router-dom";
 
 const ProtectedRoute = ({ children }) => {
-  const [searchPass, setSearchPass] = useSearchParams()
+  const [searchPass] = useSearchParams()
   const pwd = searchPass.get('password')
 
   if(pwd !== 'secret'){
